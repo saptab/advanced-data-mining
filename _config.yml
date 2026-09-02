@@ -1,0 +1,60 @@
+# Site settings
+
+repository: saptab/advanced-data-mining
+
+course_name: "CSC 84040: Advanced Data Mining with AI Agents"
+course_description: "This course bridges foundational large-scale data mining with modern agentic AI, autonomous decision-making, and automated scientific discovery. Students learn to mine massive datasets, evaluate data quality, reason about streaming systems, and design agent-driven workflows that can plan, iterate, and justify decisions."
+course_semester: "Fall 2026"
+
+baseurl: "/advanced-data-mining" # the subpath of your site, e.g. /blog/
+url: "https://saptab.github.io/" # the base hostname & protocol for your site
+
+schoolname: "City College of New York"
+schoolurl: "https://www.ccny.cuny.edu/"
+twitter_username: CityCollegeNY
+
+address: |
+    Department of Computer Science
+    City College of New York
+    New York, NY
+
+attendance_note: "Attendance in class is recommended, and participation is part of the course grade."
+
+project_deliverables: |
+    Students must complete a documented open-source codebase and either produce theoretical results backed by simulations or a concrete application solution. Final deliverables include a project presentation, an 8-page single-column LaTeX report, and presentation slides with visualizations.
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"

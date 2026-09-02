@@ -9,13 +9,13 @@ course_semester: "Fall 2026"
 baseurl: "/advanced-data-mining" # the subpath of your site, e.g. /blog/
 url: "https://saptab.github.io/" # the base hostname & protocol for your site
 
-schoolname: "City College of New York"
-schoolurl: "https://www.ccny.cuny.edu/"
-twitter_username: CityCollegeNY
+schoolname: "CUNY Graduate Center"
+schoolurl: "https://www.gc.cuny.edu/"
+twitter_username: GC_CUNY
 
 address: |
     Department of Computer Science
-    City College of New York
+    CUNY Graduate Center
     New York, NY
 
 attendance_note: "Attendance in class is recommended, and participation is part of the course grade."

@@ -4,225 +4,322 @@ title: Syllabus
 permalink: /syllabus/
 ---
 
-# CSC 84040: Advanced Data Mining with AI Agents
+#     **CSC 84040: Data Mining** ***Advanced Data Mining with AI Agents***
 
-## Course Information
+**Time:** Fall 2026, Wed 6:30p-8:30p			**Room:** 6494  
+**Prof:** Saptarashmi Bandyopadhyay                    	**TA:** TBD  
+**Office Hours**: Wednesdays 5:25 to 6:25 pm at 4410 (TBD)  
+**Email**: [sbandyopadhyay@gc.cuny.edu](mailto:sbandyopadhyay@ccny.cuny.edu)
 
-- Time: Fall 2026, Wed 6:00p-8:00p
-- Room: SH-205
-- Professor: Saptarashmi Bandyopadhyay
-- TA: TBD
-- Office Hours: TBD
-- Email: sbandyopadhyay@gc.cuny.edu
+**Course Description**
 
-## Course Description
-
-CSC 84040 - Advanced Data Mining at the CUNY Graduate Center for the Fall 2026 semester. Designed as a departure from traditional database or data mining classes with no overlap with previous coursework, this curriculum is driven by skepticism with modern data practices. As people increasingly associate data and data centers with hassles like unhelpful chatbots, private data collection, and data leaks, this class aims to teach students how to make data genuinely useful and safe.
+CSC 84040 \- Advanced Data Mining at the CUNY Graduate Center for the Fall 2026 semester. Designed as a departure from traditional database or data mining classes with no overlap with previous coursework, this curriculum is driven by skepticism with modern data practices. As people increasingly associate data and data centers with hassles like unhelpful chatbots, private data collection, and data leaks, this class aims to teach students how to make data genuinely useful and safe.
 
 The curriculum bridges the foundational algorithms of massive dataset mining with advanced contemporary paradigms in autonomous decision-making, multi-agent artificial intelligence, and automated scientific discovery. By fusing classical techniques with modern agentic frameworks, the course prepares researchers to deploy algorithms that not only extract patterns but also autonomously formulate hypotheses and execute complex research workflows.
 
-## Research Skills, Focus, and Expectations
+**Research Skills, Focus and Expectations**
 
 The fundamental objective of this curriculum is to transition graduate students from analyzing static datasets to understanding continuous, agent-driven data processing loops. Students will explore system-level monitoring, learning to balance algorithmic performance with energy signals and memory parameters. Furthermore, the course introduces interdisciplinary concepts like equilibrium, game theory, and control into data mining, focusing on how to give models practical control capabilities in the real world.
 
 Students are expected to tackle these questions by developing an open-source codebase and delivering either theoretical results backed by simulations or concrete application solutions.
 
-## Coding Skills
+**Coding Skills**
 
 Students are expected to have reasonable skills in Python programming; but more importantly, show openness to learn quickly in picking up new AI and data mining skills. Students will be picking up the skills to write efficient code, be it with single processing, multiple processing, or modern distributed computing. Students may learn new programming languages or frameworks like PySpark or JAX, based on their relevant project. Students will also be learning good coding documentation and testing skills including writing unit tests.
 
-## Course Outcomes
+**Course Outcomes**
 
-- Data Optimization and Statistical Properties: determining how much data is required to solve specific optimization problems and identifying the statistical properties that make data usable across text and vision-based problems.
-- Item Response Theory & Text Data: utilizing methodologies like Item Response Theory to rank text-based data and move beyond extraction to evaluation of data quality.
-- Scientific Discovery and Literature Mining: analyzing literature-based discovery models and deep architectural reviews of systems like Google DeepMind's Co-Scientist.
-- Engineering Discovery and Stream Mining: applying algorithms such as Bloom filters and the DGIM algorithm to high-velocity sensor streams from autonomous robotics and smart grid energy orchestration.
-- Reliability & Evaluation: critically evaluating the reliability of agent-driven mining, addressing epistemic risks, replication laundering, and ghost evidence accumulation.
+* **Data Optimization and Statistical Properties:** A key focus is determining exactly how much data is required to solve specific optimization problems. Students will learn to identify the statistical properties that make data usable across text and vision-based open problems.  
+* **Item Response Theory & Text Data:** Students will utilize methodologies like Item Response Theory to rank text-based data, moving beyond basic extraction to sophisticated evaluation of data quality.  
+* **Scientific Discovery and Literature Mining:** Students will learn to analyze literature-based discovery (LBD) models and deep architectural reviews of systems like Google DeepMind's Co-Scientist.  
+* **Engineering Discovery and Stream Mining:** Students will apply foundational algorithms such as Bloom filters and the DGIM algorithm to high-velocity sensor streams from autonomous robotics and smart grid energy orchestration.  
+* **Reliability & Evaluation:** Students will critically evaluate the reliability of agent-driven mining, addressing epistemic risks, replication laundering, and ghost evidence accumulation.
 
-## Attendance
+**Attendance:** Attendance in-class is recommended. There will be an in-class participation grade. The course is highly outcome-driven. A physical attendance sheet will be passed around on September 9 to collect names, emails, and student IDs; this is a mandatory requirement to verify student registration for financial aid.
 
-Attendance in class is recommended. There will be an in-class participation grade. The course is highly outcome-driven.
+**Free TextBooks, Open-Source Coding & Relevant Resources**
 
-## Free Textbooks, Open-Source Coding & Relevant Resources
+– Free Text Books
 
-### Free Text Books
+1. [*Mining of Massive Datasets (3rd Edition)* by Jure Leskovec, Anand Rajaraman, and Jeffrey D. Ullman (Cambridge University Press).](http://infolab.stanford.edu/~ullman/mmds/book0n.pdf)
 
-- Mining of Massive Datasets (3rd Edition) by Jure Leskovec, Anand Rajaraman, and Jeffrey D. Ullman
-- Probability: Introduction to Probability for Computing by Mor Harchol Balter
-- Mathematics for Machine Learning by Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong
-- Convex Optimization for Statistics and Machine Learning, Volume 1: Analysis by Ryan Tibshirani
-- An Introduction to Statistical Learning with Python by Garreth James, Daniela Witten, Trevor Hastie, Robert Tibshirani
+– Recommended Open-Source Resources on the HuggingFace platform
 
-### Recommended Open-Source Resources on Hugging Face
+1. Deep RL: [Introduction to Reinforcement Learning](https://huggingface.co/learn/deep-rl-course/unit0/introduction)  
+2. AI Agents: [Tool use and Planning](https://huggingface.co/learn/agents-course/en/unit0/introduction)  
+3. Robotics: [Robotics Course](https://huggingface.co/learn/robotics-course)  
+4. Post-Training: [Finetuning](https://huggingface.co/learn/smol-course/unit0/1)
 
-- Deep RL: Introduction to Reinforcement Learning
-- AI Agents: Tool use and Planning
-- Robotics: Robotics Course
-- Post-Training: Finetuning
+– Open-Access Weka Learning Resources
 
-### Open-Access JAX Learning Resources
+1. Weka Homepage: [https://ml.cms.waikato.ac.nz/weka](https://ml.cms.waikato.ac.nz/weka) 
 
-- JAX 101 Tutorial: https://docs.jax.dev/en/latest/jax-101.html
-- JAX Tutorials: https://docs.jax.dev/en/latest/_tutorials/index.html
-- JAX Documentation: https://docs.jax.dev/en/latest/jax.html
-- JAXMARL: https://github.com/FLAIROx/JaxMARL
+– Open-Access JAX Learning Resources
 
-### Open-Source LaTeX Coding Resources for Report Writing
+1. JAX 101 Tutorial [https://docs.jax.dev/en/latest/jax-101.html](https://docs.jax.dev/en/latest/jax-101.html)   
+2. JAX Tutorials (including JAX 201 and JAX 301\) [https://docs.jax.dev/en/latest/\_tutorials/index.html](https://docs.jax.dev/en/latest/_tutorials/index.html)   
+3. JAX Documentation [https://docs.jax.dev/en/latest/jax.html?spm=a2c6h.13046898.publish-article.21.6f9f6ffaIymbyj](https://docs.jax.dev/en/latest/jax.html?spm=a2c6h.13046898.publish-article.21.6f9f6ffaIymbyj)   
+4. JAXMARL [https://github.com/FLAIROx/JaxMARL](https://github.com/FLAIROx/JaxMARL) 
 
-- LaTeX tutorial on Overleaf: https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
-- TeXStudio: https://texstudio-org.github.io/getting_started.html
+– Open-Source LaTeX Coding Resources for Report Writing
 
-### Open-Source Coding Resources and Datasets
+1. LaTeX tutorial on Overleaf [https://www.overleaf.com/learn/latex/Learn\_LaTeX\_in\_30\_minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)   
+2. TeXStudio [https://texstudio-org.github.io/getting\_started.html](https://texstudio-org.github.io/getting_started.html) 
 
-- PySpark and Python Multiprocessing for distributed programming and MapReduce paradigms
-- NetworkX and SNAP (Stanford Network Analysis Project) for graph mining and community detection
-- OpenAlex API and Semantic Scholar Open Data Platform for literature graphs
+– Open-Source Coding Resources and Datasets
 
-### Open-Source Unit Testing Resources
+1. PySpark and Python Multiprocessing: For executing distributed programming assignments and handling MapReduce paradigms.  
+2. NetworkX and SNAP (Stanford Network Analysis Project): For implementing graph mining, community detection algorithms, and interacting with large-scale datasets such as ogbn-papers100M.  
+3. OpenAlex API and Semantic Scholar Open Data Platform: For retrieving massive scientific literature graphs required for the literature-based discovery and citation network mining assignments.
 
-- Python unittest: https://docs.python.org/3/library/unittest.html
-- Python pytest: https://pytest.org/
+*Note: we will not be using R in this course, as it is generally used because it is useful for statistical analysis rather than distributed data mining*
 
-### Google Colab Set-Up for Assignments and Projects
+– Open-source Unit Testing Resources
 
-Students may use Google Colab for course assignments and projects. Jupyter notebooks may also be run locally if preferred.
+1. Python unittest package [https://docs.python.org/3/library/unittest.html](https://docs.python.org/3/library/unittest.html)  
+2. Python pytest package [https://pytest.org/](https://pytest.org/)
 
-## Feedback and Communication
+– Background
 
-Student feedback is always welcome. If you are confused, have questions, insights, or excitement about a topic, you are encouraged to reach out in class, during office hours, or by email.
+1. Probability: Introduction to Probability for Computing by Mor Harchol Balter, 2024 [https://www.cs.cmu.edu/\~harchol/Probability/chapters/HarcholBalterWholeBook.pdf](https://www.cs.cmu.edu/~harchol/Probability/chapters/HarcholBalterWholeBook.pdf)   
+2. Mathematics for Machine Learning by Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, 2020 [https://mml-book.github.io/book/mml-book.pdf](https://mml-book.github.io/book/mml-book.pdf)   
+3. Convex Optimization for Statistics and Machine Learning, Volume 1: Analysis by Ryan Tibshirani 2025 [https://github.com/ryantibs/convexopt-book1/blob/main/book1.pdf](https://github.com/ryantibs/convexopt-book1/blob/main/book1.pdf)   
+4. An Introduction to Statistical Learning with Python by Garreth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, 2023 [https://www.statlearning.com/](https://www.statlearning.com/) 
 
-## Tentative Course Schedule
+– Google Colaboratory Set-Up for Assignments and Projects
 
-| Date | Topic | Due Dates |
-| --- | --- | --- |
-| Sep 2 | MapReduce & Distributed Systems: Introduction to Data Mining at Scale and Distributed Architectures for Agent Orchestration |  |
-| Sep 9 | Frequent Itemsets & Data Quality: Apriori, FP-Growth, and Identifying Statistical Properties for Usable Data | Formation of Group Project Teams |
-| Sep 16 | Similarity Search & LSH: Semantic Vector Search & Agent Memory Deduplication |  |
-| Sep 23 | Data Stream Mining & System Monitoring: Sensor Stream Mining, Energy Signals, and Memory Parameters (DGIM, Sketches) |  |
-| Sep 30 | Link Analysis & Web Mining: Citation Network Mining & SciSciNet (PageRank, HITS) |  |
-| Oct 7 | Clustering for Massive Data & Vision Problems: Hypothesis Clustering, Proximity Agents, and Vision-Based Open Problems |  |
-| Oct 14 | Game Theory & Equilibrium in Data Mining: Coordination, Competition, and Practical Control Capabilities |  |
-| Oct 19 | Evolutionary Learning, Mean-Field Learning, Self-play for Self-Improvement and Continual Learning |  |
-| Oct 21 | Classification, Prediction, & Dimensionality: Concept Embedding & Subspace Discovery |  |
-| Oct 28 | Graph Mining & Network Analysis: Large-Scale GNNs & SNAP Benchmarks |  |
-| Nov 4 | Data Optimization: Determining Data Requirements for Specific Optimization Problems & TimesFM |  |
-| Nov 11 | Item Response Theory & LBD: Ranking Text-Based Data, Swanson's ABC Model & Hypothesis Generation |  |
-| Nov 18 | Multi-Agent Scientific Discovery: Architecture of AI Co-Scientist Systems and Elo-based tournament evolution |  |
-| Nov 25 | No Classes Scheduled (Thanksgiving Recess) |  |
-| Dec 2 | Knowledge Graphs & GraphRAG: Hierarchical Community Detection, ULTRA, & Inference |  |
-| Dec 7 | Reliability, Ethics, & Evaluation: Epistemic Honesty & Overcoming Dated Data Practices |  |
-| Dec 9 | Advanced Topics: Human-Agent and Agent-Agent Coordination and Competition (Continued) |  |
-| Dec 16 | Final Project Presentations: Comprehensive Application of Course Concepts |  |
+– You can run Jupyter Notebook for Coding Assignments and Projects.
 
-## Late Policy
+1. The easiest way to run these accounts is creating a gmail account quicky with your name (student\_name)@gmail.com as Google Colab offers free compute on Cloud to run experiments  
+2. If you want to install Jupyter locally (local installation is not mandatory as Colab is easy to write development code on), follow the steps here [https://docs.jupyter.org/en/latest/running.html](https://docs.jupyter.org/en/latest/running.html)
 
-Delays in assignment submission will lead to a deduction of 10% every day the assignment is delayed, leading to a 0 if submitted 10 days after the deadline.
+**Feedback and Communication:**
 
-If an assignment is out of 100, a delayed submission will lead to a grade out of 90 points on Day 1, 80 points on Day 2, and so on.
+Student feedback is always welcome. If you are confused, have questions, have any insights, or are excited by some topic in class, you are always welcome to share it in class, in office hours or via email. Prompt communication is always encouraged so that students can get help quickly.
 
-Students are strongly advised to start and submit assignments early.
+**Tentative Course Schedule** 
 
-## Recommendations on Assignment Submission
+The course schedule for the class (subject to revision) provides class topics and due dates. All slides will be uploaded to the website within a few days to a week after class. All submissions are due on the mentioned date in the table at 11:59 pm ET (Eastern Time).
 
-- Start and submit assignments early.
-- Use office hours for debugging and questions.
-- Revise assignments and projects thoroughly.
+Specific subtopics discussed in a class will be mentioned in the syllabus to help students revise during exams and to help them in their class projects.
 
-## Grading Structure
+All slides will be uploaded to the website within a few days to a week after class.
 
-- Programming Assignments (20%)
-- Weekly Research Progress Update (10%)
-- Classroom Participation (10%)
-- Research Paper Reviews (5%)
-- Group Project (55%)
-  - Final Exam Project Presentation (19%)
-  - Final Exam Project Report (36%)
+| DATE | TOPIC | Due Dates (Assignments/Project outcomes) |
+| :---- | :---- | :---- |
+| **Sep 2** | MapReduce & Distributed Systems: Introduction to Data Mining at Scale and Distributed Architectures for Agent Orchestration |  |
+| **Sep 9** | Distributed Processing, Modalities of Data, and MapReduceFrequent Itemsets & Data Quality: Apriori, FP-Growth, and Identifying Statistical Properties for Usable Data | Initiation of Group Project Teams |
+| **Sep 16** | Similarity Search & LSH: Semantic Vector Search & Agent Memory Deduplication | Formation of Group Project Teams |
+| **Sep 23** | Data Stream Mining & System Monitoring: Sensor Stream Mining, Energy Signals, and Memory Parameters (DGIM, Sketches) |  |
+| **Sep 30** | Link Analysis & Web Mining: Citation Network Mining & SciSciNet (PageRank, HITS) in the context of Low-Resource Learning |  |
+| **Oct 7** | Clustering for Massive Data & Vision Problems: Hypothesis Clustering, Proximity Agents, and Vision-Based Open Problems |  |
+| **Oct 14** | Game Theory & Equilibrium in Data Mining: Coordination, Competition, and Practical Control Capabilities |  |
+| **Oct 19** | Evolutionary Learning, Mean-Field Learning, Self-play for self-improvement and Continual Learning: Communication paradigms for AI Agents to Adapt in Real-Time Decentralized AI: When and How to Scale AI Agents. |  |
+| **Oct 21** | Classification, Prediction, & Dimensionality: Concept Embedding & Subspace Discovery |  |
+| **Oct 28** | Graph Mining & Network Analysis: Large-Scale Graph Neural Networks (GNNs) & Stanford Network Analysis Project (SNAP) Benchmarks |  |
+| **Nov 4** | Data Estimation, Optimization and Approximation: Determining Data Requirements for Specific Estimation, Optimization and Approximation Problems & TimesFM |  |
+| **Nov 11** | Item Response Theory & LBD: Ranking Text-Based Data, Swanson’s ABC Model & Hypothesis Generation |  |
+| **Nov 18** | Multi-Agent Scientific Discovery: An Use Case \- Architecture of AI Co-Scientist Systems and Elo-based tournament evolution |  |
+| **Nov 25** | No Classes Scheduled (Thanksgiving Recess) |  |
+| **Dec 2** | Distributed Knowledge Graphs & GraphRAG: Hierarchical Community Detection, ULTRA, & Inference  |  |
+| **Dec 7** | Reliability, Ethics, Trustworthiness & Evaluation: Epistemic Honesty & Overcoming Dated Data Practices with a focus on Distributed Efficiency |  |
+| **Dec 9** | Advanced Topics: Human-Agent and Agent-Agent Coordination and Competition for Multi-Agent Interactions Data (Continued) |  |
+| **Dec 16** | Final Project Presentations: Comprehensive Application of Course Concepts |  |
 
-Final report requirements:
+– **Late Policy**
 
-- Open-source documented code
-- 8-page single-column project report in LaTeX using a provided template
-- Additional diagrams may appear in the appendix outside the 8-page limit
-- References after the 8 pages
-- Presentation slides with visualizations
+- Delays in Assignment submission will lead to a deduction of 5% every day the assignment is delayed leading to a 0 if assignment is submitted 20 days after submission deadline.  
+- If an assignment is out of 100, a delayed submission will lead to a grade out of 95 points on Day 1, 90 points on Day 2 and so on.  
+- Students are strongly advised to start and submit assignments early, allowing ample time to utilize office hours for debugging.  
+- Students can always email me asking for late policy exemptions under challenging circumstances, research deadlines among others.
 
-## How to Read Research Papers
+– **Recommendations on Assignment Submission**
 
-Research in this class must be efficient. Students should skim papers first to avoid rabbit holes and focus on the key claims. A recommended protocol is:
+	– My recommendation is to start and submit the assignments early, so that if you have questions, you can email me, come to my office hours, or ask me in class.
 
-1. Abstract (5 mins): identify the weakness in existing methods and the proposed solution.
-2. Conclusion & Future Work (4 mins): look for quantitative results and future work suggestions.
-3. If relevant, read Methods/Algorithms and Results sections.
-4. Identify pillar papers for your area and read them thoroughly once approved.
+**PLEASE SUBMIT ASSIGNMENTS EARLY**
 
-## Recommended Reading List
+**PLEASE REVISE YOUR ASSIGNMENTS AND PROJECTS THOROUGHLY**
 
-- JAXMARL (NeurIPS 2024): Simulated environments for AI Agent capabilities
-- Social Intelligence: Imitation Learning and Population-based learning
-- Multimodal Model Predictive Control: Self-Driving Cars and Autonomous Transportation
-- YETI (2025): Proactive Agency and Multimodal Efficiency in AR/VR/XR
-- Multi-Agent LLM Debate (ICML 2024)
-- AI Agents for K-12 Interactive Visualization
-- Factored NMT and NLRG Backtranslation
+**While the slides and syllabus will be openly accessible online, all homework assignments will be strictly restricted to Brightspace.**
 
-## Research Applications of AI Agents in the Real World
+– **Grading Structure**
 
-- Autonomous assistance with augmented reality/XR/VR/MR agents
-- Robotic planning, reasoning, and task manipulation at scale
-- Autonomous transportation navigation with self-driving cars and drones
-- Supply chain planning and orchestration
-- Stock portfolio optimization
-- Efficient energy use in power grids, buildings, and battery systems
-- Scientific discovery accelerating protein and material design
-- Quantum neuroscientific modeling for the artificial brain
-- Autonomous satellite correction in astrophysical systems
-- Explainable AI for recommender systems
-- Multi-agent AI guided chip design
-- AI agents guiding climate conservation
-- AI agents for biomedical discovery
-- AI agent coaches for sports strategizing
-- AI for infrastructure design and maintenance
-- Multi-agent AI-driven energy management systems
-- AI agents designing hybrid battery systems
-- AI agents for solving board games
+* Classwork Assignments (20%)  
+  * Classwork will consist of 15- to 20-minute in-class theoretical or coding exercises that will be graded immediately during a 5- to 10-minute break  
+  * The sum of all classwork assignment scores (theory and programming) will be weighted to generate a score out of 20  
+  * This grades includes coding new problems and debugging existing coding problems in class   
+  * Assignments will be individual/group-based submissions as announced by the Professor  
+* Research Paper Reviews (5%)  
+  * 1 page handwritten report talking about the strength, weakness and opportunities on reading 2 research papers which will be provided by the Professor  
+  * Assignments will be individual submissions  
+* Bi-Weekly Research Progress Update  (15%)  
+  * Students will submit a brief summary (1 to 2 page report) of their research project progress, including coding updates, report writing updates, brainstorming, etc.  
+  * Students have to clearly outline their individual research tasks as well as their tasks jointly done in a group  
+* Classroom Participation (10%)  
+  * Classroom Questions In-Person (2% in each class during interactions, maximum of 5 classes)  
+* Group Project (50%)  
+  * 1 page project abstract (5%)  
+  * MidTerm Exam Project Presentation (5%)  
+  * Final Exam Project Presentation (10%)  
+  * Final Exam Project Report (30%)  
+  * For the Finals grade, students have to submit clear assignment deliverables in the form of  
+    * open-source documented code  
+    * an 8 page single-column project report in LaTeX following the template from this [style file](https://drive.google.com/file/d/1nEb6n5z49fTlBe9nu2Lhgm7TYhjZoGnk/view?usp=sharing)  
+      * Any additional diagrams can be put in the Appendix outside the 8 page limit  
+      * References are to be provided after the 8 pages, providing citations in the project report  
+      * If any group of students are facing challenges with LaTeX based report writing, they should contact the Professor immediately for alternative templates  
+    * and presentation slides with visualizations 
 
-## Publication Targets
+– **How to Read Research Papers**:
 
-High-quality class projects should aim for submission to short-term venues such as ACL, CVPR, and CHI workshops, and long-term venues such as NeurIPS and other conferences and journals.
+Research in this class must be efficient. You are expected to skim papers first to avoid "rabbit holes" (spending hours on a paper without understanding it). Follow this protocol for every paper:
 
-## Collaboration Policy
+1. **Abstract (5 mins):** Identify the specific weakness in existing methods and the proposed solution. Make scratchpad notes immediately.  
+2. **Conclusion & Future Work (4 mins):** Look for the quantitative results backing the solution. Note the authors' self-admitted weaknesses and future work suggestions—these are opportunities for your own project.  
+3. **The Decision:** If the paper is relevant, go back and read the Methods/Algorithms and Results sections (\>5 mins).  
+   
 
-Each student in a team must clearly outline their individual research tasks as well as tasks jointly completed for the project in the six research progress update assignments. Students may discuss ideas across teams, but each project must maintain its own innovation and intellectual independence.
+**Identify "Pillar Papers":** For your specific project, you must identify a few "Pillar Papers." These are the core papers describing the system you are improving or the main weakness you are addressing. Once approved by the Professor, these must be read thoroughly.
 
-## Research Project Feasibility Updates
+– **Recommended Reading List** (Non-sequential; **Simulated Environments & Agents)**
 
-Students should follow and update project specifics based on professor feedback from project abstracts, midterm reviews, and six research progress updates. Research topics will initially be assigned by the professor, and topic changes require approval within one week of assignment.
+* [**JAXMARL (NeurIPS 2024\)**](https://proceedings.neurips.cc/paper_files/paper/2024/file/5aee125f052c90e326dcf6f380df94f6-Paper-Datasets_and_Benchmarks_Track.pdf)**:** Simulated environments for AI Agent capabilities.  
+* [**Social Intelligence:**](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p233.pdf) Imitation Learning and Population-based learning (AAMAS/ACM).  
+* [**Multimodal Model Predictive Control**](https://dl.acm.org/doi/abs/10.5555/3709347.3744032): Self-Driving Cars and Autonomous Transportation  
+* [**YETI (2025)**](https://arxiv.org/abs/2501.09355)**:** Proactive Agency and Multimodal Efficiency in AR/VR/XR.  
+* [***Multi-Agent LLM Debate*** **(ICML 2024\)**](https://arxiv.org/abs/2305.14325) – Using agentic debate to improve factual accuracy and reasoning capabilities  
+* [**AI Agents for K-12 Interactive Visualization**](https://cdn.aaai.org/ojs/21548/21548-13-25561-1-2-20220628.pdf) **–** Education  
+* [**Factored NMT and NLRG Backtranslation**](https://aclanthology.org/W19-6811/) – Efficiency (Training with less data)..
 
-## GenAI Policy
+– Research Applications of AI Agents in the Real World
 
-Generative AI can hallucinate. Students are responsible for any statements made in their work. Use of generative AI in assignments or projects is allowed only in line with the course policy.
+* 👓 Autonomous Assistance with Augmented Reality/XR/VR/MR Agents  
+* 🤖 Robotic Planning, Reasoning and Task Manipulation at Scale  
+* 🛣️ Autonomous Transportation Navigation with Self-Driving Cars and Drones  
+* 🚚 Supply Chain Planning and Orchestration  
+* 📈 Stock Portfolio Optimization  
+* 🔋 Efficient Energy usage in Power Grid / Building / Battery Systems  
+* 🧬 Scientific Discovery accelerating protein and material design,  
+* ⚛️ Quantum Neuroscientific Modeling for the Artificial Brain,  
+* 🛰️ Autonomous Satellite correction in Astrophysical Systems with interplanetary Internet,  
+* 🧩 Explainable AI to improve user experience in Recommender Systems  
+* 𓇲 Multi-Agent AI Guided Chip Design,  
+* 🌳 AI Agents Guiding Climate Conservation,  
+* 🧑🔬 AI Agents for Biomedical Discovery to assist disease cure,  
+* 🏈 AI Agent Coaches for Sports Strategizing  
+* 🌉 AI for Infrastructure Design, Building, Maintenance  
+* 🏋️ AI Agents for Fitness and Health Guidance  
+* 🏢 AI Agents for Building Engineering and Consultancy,  
+* 🏭 Multi-Agent AI driven Energy Management System for Reliable Power Grid Orchestration,  
+* 🪫 AI Agents Designing Hybrid Battery Systems for Energy Storage  
+* 𖣯 AI Agents for Solving Board Games
 
-Requirements:
+Further insights on AI Agents and Real-World Applications can be found [here](https://www.linkedin.com/pulse/joining-ccny-gc-cuny-assistant-professor-computer-ai-bandyopadhyay-qynne/).
 
-- Use generative AI similarly to searching online.
-- Cite any generative AI transcripts or links used.
-- Do not use generative AI outputs verbatim.
-- Rewrite relevant parts in your own words.
+**– Publication Targets**
 
-## University Policies and Resources
+High-quality class projects should aim for submission to:
 
-- CUNY Academic Integrity Policy: https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/
-- Accessibility: https://www.ccny.cuny.edu/accessability
-- Health and Wellness: https://www.ccny.cuny.edu/health-wellness
-- Student Affairs: https://www.ccny.cuny.edu/studentaffairs
-- Counseling Center: https://www.ccny.cuny.edu/counseling
-- Writing Center: https://www.ccny.cuny.edu/writing
-- IT Resources: https://www.cuny.edu/about/administration/offices/it/
-- Athletics and Campus Fitness: https://www.ccny.cuny.edu/studentaffairs/recreation-schedule
-- Zahn Innovation Center for Entrepreneurship: https://www.ccny.cuny.edu/zahn
-- Career and Professional Development Institute: https://www.ccny.cuny.edu/cpdi
-- Graduate Studies and PhD Resources: https://www.gc.cuny.edu
+* Short-term: ACL, CVPR, and CHI Workshops among other workshops  
+* Long-term: NeurIPS and other conferences and journals
 
-## Final Note
+– **Collaboration Policy**
 
-This course is designed to move students from static data analysis toward continuous, agent-driven research and deployment workflows. The emphasis is on both technical depth and responsible, scientifically grounded use of data and intelligent systems.
+Each student in the team has to clearly outline their individual research tasks as well as their tasks jointly done in a group for their projects in the six Research Progress Update assignment submissions. Every assignment will be clarified by the Professor about whether they are individual or group submissions in the assignment description. Within 1 team, each of the two students are expected to functionally collaborate. Across teams, students can discuss their project ideas in class, office hours, or midterm exam review while maintaining their unique innovation in their respective projects. Students have to ensure they are clearly following class policies.
+
+– **Research Project Feasibility Updates**
+
+     The students should follow and update the specifics in their project based on the Professor’s feedback in updating their project feasibility, specially from the Project Abstract, Midterm Review and six Research Progress Update assignments. Research Topics will initially be assigned by the Professor. If students would like to change the topics, they need to speak with the Professor within 1 week of topic assignment.
+
+**– GenAI Policy**
+
+1. Generative AI can hallucinate (lie) to user prompts. You are responsible for any statements in your submissions, which will be judged based on whether they are true. You are accountable and liable to Generative AI usage. If Generative AI makes a mistake and you used the mistaken statement, you will be penalized for using the wrong statement.   
+2. You are allowed to use Generative AI during class homework and projects (NOT IN EXAMS) subject to:  
+   1. Usage of Generative AI should be done similar to how you search Online (e.g. Google)  
+   2. Cite any Generative AI transcripts/links that you have referred to in your assignments and projects  
+   3. Do not use Generative AI outputs verbatim\!  
+   4. I will not be using AI detectors as are unreliable and create a perverse incentive for students to use tools to "humanify" their text, but I will be using methods that allow students to demonstrate they thoroughly understand their own work.
+
+–  **CUNY CCNY Resources** 
+
+* Accessability [https://www.ccny.cuny.edu/accessability](https://www.ccny.cuny.edu/accessability)   
+* Health and Wellness [https://www.ccny.cuny.edu/health-wellness](https://www.ccny.cuny.edu/health-wellness)    
+* Student Affairs [https://www.ccny.cuny.edu/studentaffairs](https://www.ccny.cuny.edu/studentaffairs)    
+* Counseling Center [https://www.ccny.cuny.edu/counseling](https://www.ccny.cuny.edu/counseling)   
+* Writing Center [https://www.ccny.cuny.edu/writing](https://www.ccny.cuny.edu/writing)   
+* IT Resources [cny.cuny.edu/it/services-students](http://cny.cuny.edu/it/services-students)   
+* Athletics and Campus Fitness [https://www.ccny.cuny.edu/studentaffairs/recreation-schedule](https://www.ccny.cuny.edu/studentaffairs/recreation-schedule)   
+* Zahn Innovation Center for Entrepreneurship [https://www.ccny.cuny.edu/zahn](https://www.ccny.cuny.edu/zahn)   
+* Career and Professional Development Institute [https://www.ccny.cuny.edu/cpdi](https://www.ccny.cuny.edu/cpdi)   
+* MS Resources [https://www.ccny.cuny.edu/admissions/graduate-studies-application](https://www.ccny.cuny.edu/admissions/graduate-studies-application)   
+* PhD Resources [https://www.gc.cuny.edu/admissions-aid/how-apply](https://www.gc.cuny.edu/admissions-aid/how-apply) and [https://welcome.gc.cuny.edu/apply/](https://welcome.gc.cuny.edu/apply/)   
+* PhD Research [https://www.gc.cuny.edu/computer-science/faculty-and-committees](https://www.gc.cuny.edu/computer-science/faculty-and-committees)   
+* Interuniversity Doctoral Consortium [https://www.gc.cuny.edu/academics/programs/interuniversity-doctoral-consortium](https://www.gc.cuny.edu/academics/programs/interuniversity-doctoral-consortium) 
+
+– **University Policies**
+
+– CUNY Academic Integrity Policy [https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/](https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/) 
+
+Academic dishonesty is prohibited in The City University of New York. Penalties for academic dishonesty include academic sanctions, such as failing or otherwise reduced grades, and/or disciplinary sanctions, including suspension or expulsion. [https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/](https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/) 
+
+Academic integrity is at the core of a college or university education. Faculty assign essays, exams, quizzes, projects, and so on both to extend the learning done in the classroom and as a means of assessing that learning. When students violate the academic integrity policy (i.e., “cheat”), they are committing an act of theft that can cause real harm to themselves and others including, but not limited to, their classmates, their faculty, and the caregivers who may be funding their education. Academic dishonesty confers an unfair advantage over others, which undermines educational equity and fairness. Students who cheat place their college’s accreditation and their own future prospects in jeopardy.
+
+1. Definitions and Examples of Academic Dishonesty.  
+   1. **Cheating** is the unauthorized use or attempted use of material, information, notes, study aids, devices, artificial intelligence (AI) systems, or communication during an academic exercise. Example of cheating include:  
+      1. Copying from another person or from a generative AI system or allowing others to copy work submitted for credit or a grade. This includes uploading work or submitting class assignments or exams to third party platforms and websites beyond those assigned for the class, such as commercial homework aggregators, without the proper authorization of a professor. Any use of generative AI tools must be in line with the usage policy for specific assignments as defined in the course of the syllabus and/or communicated by the course instructor.  
+      2. Using artificial intelligence tools to generate content for assignments or exams, including but not limited to language models or code generators, without written authorization from the instructor.  
+      3. Unauthorized collaboration on assignments or examinations.  
+      4. Taking an examination or completing an assignment for another person or asking or allowing someone else to take an examination or complete an assignment for you, including exams taken on a home computer.  
+      5. Submitting content generated by another person or an AI tool or any other source as solely your own work as your own, including, but not limited to, material obtained in whole or in part from commercial study or homework help websites, or content generated or altered by AI or digital paraphrasing tools without proper citation.  
+      6. Fabricating and/or falsifying data (in whole or in part).  
+      7. Giving assistance to acts of academic misconduct/dishonesty.  
+      8. Altering a response on a previously graded exam or assignment and then attempting to return it for more credit or a higher grade without permission from the instructor.  
+      9. Submitting substantial portions of a paper or assignment to more than one course for credit without permission from each instructor.  
+      10. Unauthorized use during an examination of notes, prepared answers, or any electronic devices such as cell phones, computers, smart watches, or other technologies to copy, retrieve, generate or send information.  
+   2. **Plagiarism** is the act of presenting ideas, research or writing that is not your own as your own. Examples of plagiarism include:  
+      1. Copying another person’s or an AI tool’s actual words or images without the use of quotation marks and citations attributing the words to their source.  
+      2. Presenting another person’s ideas or theories in your own words without acknowledging the source.  
+      3. Failing to acknowledge collaborators on homework and laboratory assignments.  
+      4. Internet plagiarism, including submitting downloaded term papers or parts of term papers, paraphrasing or copying information from the internet without citing the source, or “cutting & pasting” from various sources without proper attribution.  
+      5. Unauthorized use of AI-generated content; or use of AI-generated content, whether in whole or in part, even when paraphrased, without citing the AI as the source.  
+   3. **Obtaining Unfair Advantage** is any action taken by a student that gives that student an unfair advantage in his/her academic work over another student, or an action taken by a student through which a student attempts to gain an unfair advantage in his or her academic work over another student. Examples of obtaining unfair advantage include:  
+      1. Stealing, reproducing, circulating or otherwise gaining advance access to examination materials.  
+      2. Depriving other students of access to library materials by stealing, destroying, defacing, or concealing them.  
+      3. Retaining, using or circulating examination materials which clearly indicate that they should be returned at the end of the exam.  
+   4. Intentionally obstructing or interfering with another student’s work.  
+   5. **Falsification of Records and Official Documents**  
+      Examples of falsification include:  
+      1. Forging signatures of authorization.  
+      2. Falsifying information on an official academic record.  
+      3. Falsifying information on an official document such as a grade report, letter of permission, drop/add form, ID card, or other college document.  
+      4. Falsifying medical documentation that has a bearing on campus access or the excuse of absences or missed examinations and assignments.  
+2. Methods for Promoting Academic Integrity  
+   1. The CUNY Policy on Academic Integrity, and, if applicable, the college’s procedures for implementing the Policy, shall be posted to each college’s website with a link provided in the Learning Management System (LMS) shell. It is recommended that the link also be included in each course syllabus. Orientation sessions for all new faculty (full- and part-time) and students shall incorporate a discussion of academic integrity.  
+   2. All college catalogs, student handbooks, faculty handbooks, and college websites shall include the CUNY Policy on Academic Integrity and, if applicable, college procedures implementing the policy and the consequences of not adhering to the Policy.  
+   3. Each college shall subscribe to an electronic plagiarism detection service and shall notify students of the fact that such a service is available for use by the faculty.Colleges shall make faculty aware of the availability of such services and faculty should inform students of their use.  
+3. Reporting  
+   1. Each college’s president shall appoint an Academic Integrity Officer in consultation with the elected faculty governance leadership. The Academic Integrity Officer shall serve as the initial contact person with faculty members when they report incidents of suspected academic dishonesty. The Academic Integrity Officer may be the college’s Student Conduct Officer, another student affairs official, an academic affairs official, or a tenured faculty member. Additional duties of the Academic Integrity Officer are described in Sections 4.1., 4.2.1., 4.2.2., 4.3 and 4.4.  
+   2. A faculty member who suspects that a student has committed a violation of the CUNY Academic Integrity Policy shall review with the student the facts and circumstances of the suspected violation whenever feasible. Thereafter, a faculty member who concludes that there has been an incident of academic dishonesty sufficient to affect the student’s final course grade shall report such incident on a Faculty Report Form in substantially the same format as the sample annexed to this Policy and shall submit the Form to the college’s Academic Integrity Officer, copying his/her Department Chair.Each college shall use a uniform form throughout the college, which shall contain, at a minimum, the name of the instructor, the name of the student, the course name and number, the date of the incident, an explanation of the incident and the instructor’s contact information. All instances of academic dishonesty that are reported to the Academic Integrity Officer shall be recorded for documentation and tracking purposes.  
+   3. The Academic Integrity Officer shall update the Faculty Report Form after a suspected incident has been resolved to reflect that resolution. Unless the resolution exonerates the student, as described in Section 4.4, the Academic Integrity Officer of each college shall place the Form in a confidential academic integrity file created for each student alleged to have violated the Academic Integrity Policy and shall retain each Form for the purposes of identifying repeat offenders, gathering data, and assessing and reviewing policies.Unless they exonerate the student, written decisions on academic integrity matters after adjudication also shall be placed in the student’s academic integrity file. The Academic Integrity Officer shall be responsible for maintaining students’ academic integrity files.  
+4. Procedures for Imposition of Sanctions  
+   1. Determination on academic vs. disciplinary sanction.  
+      The Academic Integrity Officer shall determine whether to seek a disciplinary sanction in addition to an academic sanction.In making this determination, the Academic Integrity Officer shall consult with the faculty member who initiated the case and may consult with student affairs and/or academic affairs administrators as needed. Before determining which sanction(s) to seek, the Academic Integrity Officer also shall consult the student’s confidential academic integrity file, if any, to determine whether the student has been found to have previously committed a violation of the Academic Integrity Policy, the nature of the infraction, and the sanction imposed or action taken.Prior violations include both violations at the student’s current college and violations that occurred at any other CUNY college.In making the determination on prior violations, the Academic Integrity Officer shall determine whether the student previously attended any other CUNY college and, if so, shall request and be given access to the academic integrity file, if any, at such other CUNY college.  
+      The Academic Integrity Officer should seek disciplinary sanctions only if (i) there is a substantial violation; (ii) the student has previously violated the Policy; or (iii) academic sanctions may not be imposed because the student has timely withdrawn from the applicable course.Examples of substantial violations include but are not limited to: forging a grade form or a transcript; stealing an examination from a professor or a university office; having a substitute take an examination or taking an examination for someone else; having someone else write a paper for the student or writing a paper for another student; generating entire assignments or exam responses using AI without authorization, sabotaging another student’s work through actions that prevent or impede the other student from successfully completing an assignment; and violations committed by a graduate or professional student or a student who will seek professional licensure.The college also should consider any mitigating circumstances in making this determination.  
+   2. Procedures in Cases Involving Only Academic Sanctions.  
+      1. Student Admits to the Academic Dishonesty and Does Not Contest the Academic Sanction.  
+         If a faculty member wishes to seek only an academic sanction (i.e., a reduced grade) and students do not contest either their guilt or the particular reduced grade the faculty member has chosen, then the student shall be given the reduced grade, unless the Academic Integrity Officer decides to seek a disciplinary sanction. The reduced grade may apply to the particular assignment as to which the violation occurred or to the course grade, at the faculty member’s discretion. A reduced grade may be an “F” or another grade that is lower than the grade that the student would have earned but for the violation. The faculty member shall inform the Academic Integrity Officer of the resolution via email and the Officer shall update the applicable Faculty Report Form to reflect that resolution.  
+      2. Student Admits to the Academic Dishonesty but Contests the Academic Sanction.  
+         In a case where a student admits to the alleged academic dishonesty but contests the particular academic sanction imposed, the student may appeal the academic sanction through the college’s grade appeal process.The student shall be allowed, at a minimum, an opportunity to present a written position with supporting evidence. The committee reviewing the appeal shall issue a written decision explaining the justification for the academic sanction imposed.  
+      3. Student Denies the Academic Dishonesty  
+         In a case where a student denies the academic dishonesty, a fact-finding determination shall be made, at each college’s option, by an Academic Integrity Committee established by the College’s governance body or by the Student-Faculty Disciplinary Committee established under Article XV of the CUNY Bylaws. Each college’s Academic Integrity Committee shall adopt procedures for hearing cases. (If a college opts to use its Student-Faculty Disciplinary Committee for this purpose, that Committee shall use Article IX procedures.) These procedures, at a minimum, shall provide students with (i) written notice of the charges against them; (ii) the right to appear before the Committee; and (iii) the right to present witness statements and/or to call witnesses. Those procedures also shall provide the faculty member with the right to make an appearance before the Committee and/or present supporting documents. The Committee may request the testimony of any witness and may permit any such witness to be questioned by the student and by the administrator presenting the case. Academic Integrity Committees and Student-Faculty Disciplinary Committees, as applicable, shall issue written decisions and send copies of their decisions to the college’s Academic Integrity Officer. The Academic Integrity Officer may not serve on a college’s Academic Integrity Committee.  
+   3. Procedures in Cases Involving Disciplinary Sanctions.  
+      If the college decides to seek a disciplinary sanction, the case shall be processed under Article XV of the CUNY Bylaws.If the case is not resolved through mediation under Article XV, it shall be heard by the college’s Faculty-Student Disciplinary Committee.  
+      If the college seeks to have both a disciplinary and an academic sanction imposed, the college shall proceed first with the disciplinary proceeding and await its outcome before addressing the academic sanction. The student’s grade shall be held in abeyance by using the PEN grade established for this purpose, pending the Committee’s action.If the Faculty-Student Disciplinary Committee finds that the alleged violation occurred, then the faculty member may reflect that finding in the student’s grade.The student may appeal the finding in accordance with Article XV procedures and/or may appeal the grade imposed by the faculty member in accordance with section 4.2.2. If the Faculty-Student Disciplinary Committee finds that the alleged violation did not occur, then no sanction of any kind may be imposed.  
+      Where a matter proceeds to the Faculty-Student Disciplinary Committee, the Academic Integrity Officer shall promptly report its resolution to the faculty member and file a record of the resolution in the student’s confidential academic integrity file, unless, as explained below, the suspected violation was held to be unfounded.  
+   4. Required Action in Cases of No Violation  
+      If either the Academic Integrity Committee or the Faculty- Student Disciplinary Committee finds that no violation occurred, the Academic Integrity Officer shall remove all material relating to that incident from the student’s confidential academic integrity file and destroy the material.  
+5. Implementation  
+   Each college shall implement this Policy and may adopt its own more specific procedures to implement the Policy. Colleges’ procedures must be consistent with the policy and procedures described in the Policy. **CUNY BOT adopted a revised “Policy on Academic Integrity” on June 27, 2011, which went into effect on July 1, 2011 (6.27.2011.Cal.5.L). Amended and replaced on June 27, 2022\. (6.27.2022. No. 4.F.)**  
+   **EXPLANATION** Revision to the 2022 Academic Integrity Policy is necessary because the current policy does not address the advent of Artificial Intelligence and its use by students at CUNY.Preparing students to learn from and use AI responsibly and ethically is critical to the University’s mission, to ensuring academic integrity, to securing the rigor of the University’s academic programs.Further, students must become facile with the use of AI to learn effectively in today’s world and to prepare for their AI-assisted careers and lives in the future.
+

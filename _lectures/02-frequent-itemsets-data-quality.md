@@ -1,9 +1,12 @@
 ---
 layout: default
 date: 2026-09-09
-title: "Frequent Itemsets & Data Quality: Apriori, FP-Growth, and Identifying Statistical Properties for Usable Data"
+title: "Distributed Processing & MapReduce: Frequent Itemsets and Data Quality"
 type: lecture
-tldr: "Mining frequent patterns while evaluating whether data is actually suitable for downstream learning."
+tldr: "Distributed processing, data modalities, MapReduce, and frequent-pattern mining with Apriori and FP-Growth."
+links:
+    - url: "/static_files/presentations/02_mapreduce.pdf"
+      name: slides
 ---
 
-This class covers frequent-itemset mining, pattern extraction, and the statistical properties that determine whether data is reliable and useful in practice.
+This class covers data and model parallelism, multimodal data, and the MapReduce framework before exploring data quality, association rules, and frequent-itemset mining with Apriori and FP-Growth.

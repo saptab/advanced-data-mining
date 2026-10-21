@@ -4,6 +4,9 @@ date: 2026-09-30
 title: "Link Analysis & Web Mining: Citation Network Mining & SciSciNet (PageRank, HITS)"
 type: lecture
 tldr: "Graph-based mining and citation analysis for literature and web-scale networks."
+links:
+    - url: "/static_files/presentations/05_link_analysis.pdf"
+      name: slides
 ---
 
 This lecture introduces PageRank, HITS, and citation-network mining as tools for understanding complex research and information networks.

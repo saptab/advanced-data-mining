@@ -105,26 +105,25 @@ Specific subtopics discussed in a class will be mentioned in the syllabus to hel
 
 All slides will be uploaded to the website within a few days to a week after class.
 
-| DATE | TOPIC | Due Dates (Assignments/Project outcomes) |
-| :---- | :---- | :---- |
-| **Sep 2** | MapReduce & Distributed Systems: Introduction to Data Mining at Scale and Distributed Architectures for Agent Orchestration |  |
-| **Sep 9** | Distributed Processing, Modalities of Data, and MapReduceFrequent Itemsets & Data Quality: Apriori, FP-Growth, and Identifying Statistical Properties for Usable Data | Initiation of Group Project Teams |
-| **Sep 16** | Similarity Search & LSH: Semantic Vector Search & Agent Memory Deduplication | Formation of Group Project Teams |
-| **Sep 23** | Data Stream Mining & System Monitoring: Sensor Stream Mining, Energy Signals, and Memory Parameters (DGIM, Sketches) |  |
-| **Sep 30** | Link Analysis & Web Mining: Citation Network Mining & SciSciNet (PageRank, HITS) in the context of Low-Resource Learning |  |
-| **Oct 7** | Clustering for Massive Data & Vision Problems: Hypothesis Clustering, Proximity Agents, and Vision-Based Open Problems |  |
-| **Oct 14** | Game Theory & Equilibrium in Data Mining: Coordination, Competition, and Practical Control Capabilities |  |
-| **Oct 19** | Evolutionary Learning, Mean-Field Learning, Self-play for self-improvement and Continual Learning: Communication paradigms for AI Agents to Adapt in Real-Time Decentralized AI: When and How to Scale AI Agents. |  |
-| **Oct 21** | Classification, Prediction, & Dimensionality: Concept Embedding & Subspace Discovery |  |
-| **Oct 28** | Graph Mining & Network Analysis: Large-Scale Graph Neural Networks (GNNs) & Stanford Network Analysis Project (SNAP) Benchmarks |  |
-| **Nov 4** | Data Estimation, Optimization and Approximation: Determining Data Requirements for Specific Estimation, Optimization and Approximation Problems & TimesFM |  |
-| **Nov 11** | Item Response Theory & LBD: Ranking Text-Based Data, Swanson’s ABC Model & Hypothesis Generation |  |
-| **Nov 18** | Multi-Agent Scientific Discovery: An Use Case \- Architecture of AI Co-Scientist Systems and Elo-based tournament evolution |  |
-| **Nov 25** | No Classes Scheduled (Thanksgiving Recess) |  |
-| **Dec 2** | Distributed Knowledge Graphs & GraphRAG: Hierarchical Community Detection, ULTRA, & Inference  |  |
-| **Dec 7** | Reliability, Ethics, Trustworthiness & Evaluation: Epistemic Honesty & Overcoming Dated Data Practices with a focus on Distributed Efficiency |  |
-| **Dec 9** | Advanced Topics: Human-Agent and Agent-Agent Coordination and Competition for Multi-Agent Interactions Data (Continued) |  |
-| **Dec 16** | Final Project Presentations: Comprehensive Application of Course Concepts |  |
+| LECTURE | DATE | TOPIC | Due Dates (Assignments/Project outcomes) |
+| :---- | :---- | :---- | :---- |
+| 1 | **Sep 2** | MapReduce & Distributed Systems: Introduction to Data Mining at Scale and Distributed Architectures for Agent Orchestration |  |
+| 2 | **Sep 9** | Distributed Processing, Modalities of Data, and MapReduceFrequent Itemsets & Data Quality: Apriori, FP-Growth, and Identifying Statistical Properties for Usable Data | Initiation of Group Project Teams |
+| 3 | **Sep 16** | Similarity Search & LSH: Semantic Vector Search & Agent Memory Deduplication | Formation of Group Project Teams |
+| 4 | **Sep 23** | Data Stream Mining & System Monitoring: Sensor Stream Mining, Energy Signals, and Memory Parameters (DGIM, Sketches) |  |
+| 5 | **Sep 30** | Link Analysis & Web Mining: Citation Network Mining & SciSciNet (PageRank, HITS) in the context of Low-Resource Learning |  |
+| 6 | **Oct 7** | Clustering for Massive Data & Vision Problems: Hypothesis Clustering, Proximity Agents, and Vision-Based Open Problems |  |
+| 7 | **Oct 14** | Game Theory & Equilibrium in Data Mining: Coordination, Competition, and Practical Control Capabilities |  |
+| 8 | **Oct 21** | Classification, Prediction, & Dimensionality: Concept Embedding & Subspace Discovery |  |
+| 9 | **Oct 28** | Graph Mining & Network Analysis: Large-Scale Graph Neural Networks (GNNs) & Stanford Network Analysis Project (SNAP) Benchmarks |  |
+| 10 | **Nov 4** | Data Estimation, Optimization and Approximation: Determining Data Requirements for Specific Estimation, Optimization and Approximation Problems & TimesFM |  |
+| 11 | **Nov 11** | Item Response Theory & LBD: Ranking Text-Based Data, Swanson’s ABC Model & Hypothesis Generation |  |
+| 12 | **Nov 18** | Multi-Agent Scientific Discovery: An Use Case \- Architecture of AI Co-Scientist Systems and Elo-based tournament evolution |  |
+| — | **Nov 25** | No Classes Scheduled (Thanksgiving Recess) |  |
+| 13 | **Dec 2** | Distributed Knowledge Graphs & GraphRAG: Hierarchical Community Detection, ULTRA, & Inference  |  |
+| 14 | **Dec 7** | Reliability, Ethics, Trustworthiness & Evaluation: Epistemic Honesty & Overcoming Dated Data Practices with a focus on Distributed Efficiency |  |
+| 15 | **Dec 9** | Advanced Topics: Human-Agent and Agent-Agent Coordination and Competition for Multi-Agent Interactions Data (Continued) |  |
+| 16 | **Dec 16** | Final Project Presentations: Comprehensive Application of Course Concepts |  |
 
 – **Late Policy**
 

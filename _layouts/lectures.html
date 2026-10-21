@@ -5,7 +5,8 @@ layout: page
 {{ content }}
 
 <ul id="archive">
-{% for lecture in site.lectures %}
+{% assign lectures_sorted = site.lectures | sort: 'date' %}
+{% for lecture in lectures_sorted %}
 <li class="archiveposturl" style="background: transparent">
 <div class="lecture-container">
     {% if lecture.thumbnail %}
@@ -16,7 +17,7 @@ layout: page
     </div>
     {% endif %}
     <div class="content">
-        <span style="font-weight: bold;">{{ lecture.title }}</span><br>
+        <span style="font-weight: bold;">Lecture {{ forloop.index }}: {{ lecture.title }}</span><br>
 
         <strong>tl;dr:</strong> {{ lecture.tldr }}
         <br/>
